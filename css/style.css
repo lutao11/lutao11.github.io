@@ -241,3 +241,141 @@
         padding: 0 22px;
       }
     }
+
+
+/* Teaching affiliation */
+.teaching-affiliation {
+  margin-bottom: 20px;
+}
+
+.teaching-affiliation h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #253247;
+  margin: 0 0 5px;
+}
+
+.teaching-affiliation p {
+  font-size: 16px;
+  color: #536174;
+  margin: 0;
+}
+
+/* Teaching course list */
+.course-list {
+  margin-top: 20px;
+  border-top: 1px solid #e8edf2;
+}
+
+.course {
+  padding: 18px 0;
+  border-bottom: 1px solid #e8edf2;
+}
+
+.course:last-child {
+  border-bottom: none;
+}
+
+.course h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #253247;
+  margin: 0 0 5px;
+}
+
+.course p {
+  font-size: 15px;
+  color: #627083;
+  margin: 0;
+}
+
+/* Spacing between teaching institutions */
+.course-list + .teaching-affiliation {
+  margin-top: 40px;
+}
+
+
+/* Publications */
+.publication-list {
+  margin-top: 20px;
+}
+
+.publication {
+  padding: 18px 0;
+  border-bottom: 1px solid #e8edf2;
+}
+
+.publication:last-child {
+  border-bottom: none;
+}
+
+.publication-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #253247;
+  line-height: 1.7;
+  margin: 0 0 6px;
+}
+
+.publication-title a {
+  color: #345c88;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.publication-title a:hover {
+  text-decoration: underline;
+}
+
+.publication-authors {
+  font-size: 14px;
+  color: #627083;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+/* Research experience */
+.research-experience-list {
+  margin-top: 20px;
+}
+
+.research-experience {
+  padding: 18px 0;
+  border-bottom: 1px solid #e8edf2;
+}
+
+.research-experience:last-child {
+  border-bottom: none;
+}
+
+.research-experience h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #253247;
+  margin: 0 0 5px;
+}
+
+.research-experience p {
+  font-size: 16px;
+  color: #536174;
+  margin: 12px 0;
+}
+
+.research-experience .research-date {
+  font-size: 15px;
+  color: #627083;
+  margin: 0 0 12px;
+}
+
+.research-experience ul {
+  padding-left: 24px;
+  margin: 10px 0;
+  color: #536174;
+  font-size: 16px;
+}
+
+.research-experience li {
+  margin-bottom: 6px;
+}
+
